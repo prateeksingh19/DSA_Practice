@@ -1,9 +1,9 @@
 /*
- *
- **
- ***
- ****
- *****
+ 1
+ 22
+ 333
+ 4444
+ 55555
  */
 
 #include <bits/stdc++.h>
@@ -13,8 +13,8 @@ int main() {
     int n;
     cin >> n;
     for (int i = 1; i <= n; i++) {
-        for (int j = 0; j < i; j++) {
-            cout << "*";
+        for (int j = 1; j < i + 1; j++) {
+            cout << i;
         }
         cout << endl;
     }
